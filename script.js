@@ -1,4 +1,30 @@
 //your JS code here. If required.
+
+
+
+function updateTimer() {
+  const no = new Date();
+  const timerElement = document.getElementById('timer');
+  timerElement.textContent = now.toLocaleString();
+}
+
+setInterval(updateTimer, 1000);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // let para = document.querySelector("#timer")
 
 
