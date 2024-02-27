@@ -93,10 +93,3 @@ setInterval(updateTimer, 1000);
 
 
 
-function updateTimer() {
-  const now = new Date();
-  const timerElement = document.getElementById('timer');
-  timerElement.textContent = now.toLocaleString();
-}
-
-setInterval(updateTimer, 1000);
