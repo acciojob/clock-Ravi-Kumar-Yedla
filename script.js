@@ -3,22 +3,12 @@
 
 
 function updateTimer() {
-  const no = new Date();
+  const date = new Date();
   const timerElement = document.getElementById('timer');
   timerElement.textContent = now.toLocaleString();
 }
 
 setInterval(updateTimer, 1000);
-
-
-
-
-
-
-
-
-
-
 
 
 
